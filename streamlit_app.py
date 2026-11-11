@@ -1,12 +1,13 @@
 import streamlit as st
 import requests
+import os
 
 st.set_page_config(page_title="CRAG AI Assistant", page_icon="🤖", layout="wide")
 
 st.title("🤖 Corrective RAG Chat")
 st.markdown("Retrieves local documents. Self-corrects via web search if local context is irrelevant.")
 
-API_URL = "http://localhost:8000/api/v1/query"
+API_URL = os.getenv("API_URL", "http://localhost:8000/api/v1/query")
 
 # Initialize Session State
 if "messages" not in st.session_state:
