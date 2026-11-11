@@ -1,0 +1,21 @@
+# Environment Variables (Secrets)
+.env
+
+# Python Virtual Environment & Cache
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Vector Store Index
+vectorstore/
+
+# IDE & OS Artifacts
+.vscode/
+.idea/
+.DS_Store
+
+.cache/

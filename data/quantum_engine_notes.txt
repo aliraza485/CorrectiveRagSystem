@@ -1,0 +1,5 @@
+
+The Quantum Engine project started in Q1 2025 with a budget of $2.5 Million.
+The primary objective is to optimize RAG latency under 200ms using hybrid vector search.
+Lead Engineer: Sarah Connor.
+Key Risk: Tavily API rate limits during high-throughput query fallback.
